@@ -1,6 +1,5 @@
 import { Module } from '@nestjs/common';
 import { PlayersModule } from './players/players.module';
-import { PlayersService } from './players/players.service';
 import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
